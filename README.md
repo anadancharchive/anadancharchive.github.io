@@ -1,3 +1,3 @@
 # anadancharchive.github.io
 
-Official digital archive documenting the artistic career of Ana Danch, the stage name of Ukrainian singer and songwriter Uliana Myroslavivna Danchul (born Uliana Myroslavivna Latyk).
+Official digital archive documenting the artistic career of Ukrainian singer and songwriter Ana Danch. Born as Uliana Myroslavivna Latyk, now Uliana Myroslavivna Danchul.
