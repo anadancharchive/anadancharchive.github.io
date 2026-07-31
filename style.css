@@ -105,3 +105,11 @@ a:hover {
   color: #666;
   text-align: center;
 }
+a{
+color:#0066cc;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
