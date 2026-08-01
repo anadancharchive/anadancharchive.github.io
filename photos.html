@@ -64,6 +64,36 @@ p{
     text-align:justify;
 }
 
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:30px;
+}
+
+.gallery-item{
+    width:260px;
+    text-align:center;
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:.25s;
+}
+
+.gallery-item img:hover{
+    transform:scale(1.03);
+}
+
+.gallery-item p{
+    margin-top:12px;
+    text-align:center;
+    font-size:15px;
+}
+
 footer{
     text-align:center;
     color:#666;
@@ -84,8 +114,8 @@ footer{
 <nav>
 <a href="index.html">Home</a>
 <a href="biography.html">Biography</a>
-<a href="press.html">Press</a>
 <a href="discography.html">Discography</a>
+<a href="press.html">Press</a>
 <a href="photos.html">Photos</a>
 </nav>
 
@@ -94,14 +124,36 @@ footer{
 <h2>Photos</h2>
 
 <p>
-The Photos section documents the artistic career of Ana Danch through archival photographs. Images documenting her early artistic career may appear under her birth name, <strong>Uliana Latyk</strong>.
+The Photos section documents the artistic career of Ana Danch through archival photographs and visual materials. Images documenting her early artistic career may appear under her birth name, <strong>Uliana Latyk</strong>.
 </p>
 
 <h3>Contents</h3>
 
 <p>
-The archive documents portraits, live performances, promotional photographs, behind-the-scenes images, and other visual materials. Each photograph is presented as an individual archival record with descriptive information and available source details.
+The archive documents artist portraits, photo sessions, live performances, promotional photographs, promotional pocket calendars, behind-the-scenes photographs, and other visual materials related to the artistic career of Ana Danch. Each item is presented as an individual archival record with descriptive information and available source details.
 </p>
+
+<h3>Archive Materials</h3>
+
+<div class="gallery">
+
+<div class="gallery-item">
+
+<a href="uliana-latyk-pocket-calendar-2001.html">
+
+<img
+src="images/uliana-latyk-pocket-calendar-front.jpg"
+alt="Promotional Pocket Calendar – Uliana Latyk (2001)">
+
+</a>
+
+<p>
+Promotional Pocket Calendar – Uliana Latyk (2001)
+</p>
+
+</div>
+
+</div>
 
 </main>
 
