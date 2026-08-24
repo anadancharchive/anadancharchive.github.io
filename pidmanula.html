@@ -124,76 +124,140 @@ color:#666;
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"MusicRecording",
-  "@id":"https://anadancharchive.github.io/pidmanula.html#recording",
-  "name":"Підманула",
-  "alternateName":"Pidmanula",
-  "url":"https://anadancharchive.github.io/pidmanula.html",
-  "image":"https://anadancharchive.github.io/images/pidmanula-cover.jpg",
-  "datePublished":"2022-05-12",
-  "duration":"PT3M32S",
-  "genre":"Folk",
-  "inLanguage":"Ukrainian",
-  "description":"A contemporary interpretation by Ana Danch of a traditional Ukrainian folk song. The recording combines its folk foundation with adapted lyrics and a modern arrangement.",
-  "identifier":[
+  "@graph":[
     {
-      "@type":"PropertyValue",
-      "propertyID":"Wikidata",
-      "value":"Q137256346",
-      "url":"https://www.wikidata.org/wiki/Q137256346"
+      "@type":"MusicAlbum",
+      "@id":"https://anadancharchive.github.io/pidmanula.html#single",
+      "name":"Підманула",
+      "alternateName":"Pidmanula",
+      "url":"https://anadancharchive.github.io/pidmanula.html",
+      "image":"https://anadancharchive.github.io/images/pidmanula-cover.jpg",
+      "albumReleaseType":"https://schema.org/SingleRelease",
+      "numTracks":1,
+      "genre":"Folk",
+      "inLanguage":"uk",
+      "description":"A contemporary interpretation by Ana Danch of a traditional Ukrainian folk song.",
+      "byArtist":{
+        "@id":"https://anadancharchive.github.io/#ana-danch"
+      },
+      "track":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#recording"
+      },
+      "albumRelease":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#release"
+      },
+      "identifier":[
+        {
+          "@type":"PropertyValue",
+          "propertyID":"Wikidata",
+          "value":"Q137256346",
+          "url":"https://www.wikidata.org/wiki/Q137256346"
+        },
+        {
+          "@type":"PropertyValue",
+          "propertyID":"MusicBrainz Release Group",
+          "value":"f1706882-3dcc-4382-aa7d-0b220c758528",
+          "url":"https://musicbrainz.org/release-group/f1706882-3dcc-4382-aa7d-0b220c758528"
+        }
+      ],
+      "sameAs":[
+        "https://www.wikidata.org/wiki/Q137256346",
+        "https://musicbrainz.org/release-group/f1706882-3dcc-4382-aa7d-0b220c758528"
+      ]
     },
     {
-      "@type":"PropertyValue",
-      "propertyID":"MusicBrainz Release Group",
-      "value":"f1706882-3dcc-4382-aa7d-0b220c758528",
-      "url":"https://musicbrainz.org/release-group/f1706882-3dcc-4382-aa7d-0b220c758528"
+      "@type":"MusicRelease",
+      "@id":"https://anadancharchive.github.io/pidmanula.html#release",
+      "name":"Підманула",
+      "alternateName":"Pidmanula",
+      "url":"https://anadancharchive.github.io/pidmanula.html",
+      "image":"https://anadancharchive.github.io/images/pidmanula-cover.jpg",
+      "datePublished":"2022-05-12",
+      "duration":"PT3M32S",
+      "musicReleaseFormat":"https://schema.org/DigitalFormat",
+      "inLanguage":"uk",
+      "recordLabel":{
+        "@type":"Organization",
+        "name":"ANA DANCH"
+      },
+      "releaseOf":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#single"
+      },
+      "numTracks":1,
+      "track":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#recording"
+      },
+      "identifier":[
+        {
+          "@type":"PropertyValue",
+          "propertyID":"MusicBrainz Release",
+          "value":"d5086dfe-413b-42dd-ae45-2d558dff6e34",
+          "url":"https://musicbrainz.org/release/d5086dfe-413b-42dd-ae45-2d558dff6e34"
+        },
+        {
+          "@type":"PropertyValue",
+          "propertyID":"Barcode",
+          "value":"195729730861"
+        }
+      ],
+      "sameAs":[
+        "https://musicbrainz.org/release/d5086dfe-413b-42dd-ae45-2d558dff6e34",
+        "https://music.apple.com/ua/album/pidmanula/1623406572?i=1623406576",
+        "https://open.spotify.com/track/5OfSpHMUdY9XYq5gzh4THi",
+        "https://www.deezer.com/en/album/317495607",
+        "https://www.youtube.com/watch?v=Kkx5ozthN9w",
+        "https://soundcloud.com/ana-danch/pidmanula",
+        "https://anadanch.bandcamp.com/track/--5"
+      ],
+      "producer":{
+        "@type":"Person",
+        "name":"Oleksandr Danchul"
+      }
     },
     {
-      "@type":"PropertyValue",
-      "propertyID":"MusicBrainz Release",
-      "value":"d5086dfe-413b-42dd-ae45-2d558dff6e34",
-      "url":"https://musicbrainz.org/release/d5086dfe-413b-42dd-ae45-2d558dff6e34"
+      "@type":"MusicRecording",
+      "@id":"https://anadancharchive.github.io/pidmanula.html#recording",
+      "name":"Підманула",
+      "alternateName":"Pidmanula",
+      "url":"https://anadancharchive.github.io/pidmanula.html",
+      "image":"https://anadancharchive.github.io/images/pidmanula-cover.jpg",
+      "duration":"PT3M32S",
+      "genre":"Folk",
+      "inLanguage":"uk",
+      "description":"The recording combines traditional Ukrainian folk material with adapted lyrics and a modern arrangement.",
+      "byArtist":{
+        "@type":"Person",
+        "@id":"https://anadancharchive.github.io/#ana-danch",
+        "name":"Ana Danch",
+        "url":"https://anadancharchive.github.io/"
+      },
+      "producer":{
+        "@type":"Person",
+        "name":"Oleksandr Danchul"
+      },
+      "recordingOf":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#composition"
+      },
+      "isPartOf":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#release"
+      }
     },
     {
-      "@type":"PropertyValue",
-      "propertyID":"Barcode",
-      "value":"195729730861"
+      "@type":"MusicComposition",
+      "@id":"https://anadancharchive.github.io/pidmanula.html#composition",
+      "name":"Підманула",
+      "alternateName":"Pidmanula",
+      "inLanguage":"uk",
+      "creditText":"Music: Traditional (Ukrainian folk); Lyrics: Uliana Danchul, Traditional (Ukrainian folk).",
+      "lyricist":{
+        "@type":"Person",
+        "name":"Uliana Danchul"
+      },
+      "recordedAs":{
+        "@id":"https://anadancharchive.github.io/pidmanula.html#recording"
+      }
     }
-  ],
-  "sameAs":[
-    "https://www.wikidata.org/wiki/Q137256346",
-    "https://musicbrainz.org/release-group/f1706882-3dcc-4382-aa7d-0b220c758528",
-    "https://music.apple.com/ua/album/pidmanula/1623406572?i=1623406576",
-    "https://open.spotify.com/track/5OfSpHMUdY9XYq5gzh4THi",
-    "https://www.deezer.com/en/album/317495607",
-    "https://www.youtube.com/watch?v=Kkx5ozthN9w",
-    "https://soundcloud.com/ana-danch/pidmanula",
-    "https://anadanch.bandcamp.com/track/--5"
-  ],
-  "byArtist":{
-    "@type":"Person",
-    "@id":"https://anadancharchive.github.io/#ana-danch",
-    "name":"Ana Danch",
-    "url":"https://anadancharchive.github.io/"
-  },
-  "composer":{
-    "@type":"Person",
-    "name":"Traditional (Ukrainian folk)"
-  },
-  "lyricist":[
-    {
-      "@type":"Person",
-      "name":"Uliana Danchul"
-    },
-    {
-      "@type":"Person",
-      "name":"Traditional (Ukrainian folk)"
-    }
-  ],
-  "producer":{
-    "@type":"Person",
-    "name":"Oleksandr Danchul"
-  }
+  ]
 }
 </script>
 
