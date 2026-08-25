@@ -46,18 +46,32 @@
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"CollectionPage",
-  "name":"Discography | Ana Danch Archive",
-  "url":"https://anadancharchive.github.io/discography.html",
-  "description":"Official discography archive documenting the musical releases of Ana Danch and selected early-career group recordings from the period when she was known as Uliana Latyk.",
-  "about":{
-    "@id":"https://anadancharchive.github.io/#ana-danch"
-  },
-  "isPartOf":{
-    "@type":"WebSite",
-    "name":"Ana Danch Archive",
-    "url":"https://anadancharchive.github.io/"
-  }
+  "@graph":[
+    {
+      "@type":"CollectionPage",
+      "name":"Discography | Ana Danch Archive",
+      "url":"https://anadancharchive.github.io/discography.html",
+      "description":"Official discography archive documenting the musical releases of Ana Danch and selected early-career group recordings from the period when she was known as Uliana Latyk.",
+      "about":{
+        "@id":"https://anadancharchive.github.io/#ana-danch"
+      },
+      "isPartOf":{
+        "@type":"WebSite",
+        "name":"Ana Danch Archive",
+        "url":"https://anadancharchive.github.io/"
+      }
+    },
+    {
+      "@type":"Person",
+      "@id":"https://anadancharchive.github.io/#ana-danch",
+      "name":"Ana Danch",
+      "url":"https://anadancharchive.github.io/",
+      "sameAs":[
+        "https://www.wikidata.org/wiki/Q137179708",
+        "https://musicbrainz.org/artist/a791aaee-2905-4459-aaf2-761128bf24fe"
+      ]
+    }
+  ]
 }
 </script>
 
