@@ -99,6 +99,36 @@ p{
     text-align:justify;
 }
 
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    margin-top:30px;
+}
+
+.gallery-item{
+    width:260px;
+    text-align:center;
+}
+
+.gallery-item img{
+    width:100%;
+    height:auto;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:.25s;
+}
+
+.gallery-item img:hover{
+    transform:scale(1.03);
+}
+
+.gallery-item p{
+    margin-top:12px;
+    text-align:center;
+    font-size:15px;
+}
+
 footer{
     text-align:center;
     color:#666;
@@ -143,15 +173,27 @@ Materials documenting earlier periods of her career may appear under her birth n
 Each archival item is presented as an individual archival record with descriptive information and available source details.
 </p>
 
-<ul>
+<h3>Archive Materials</h3>
 
-<li>
+<div class="gallery">
+
+<div class="gallery-item">
+
 <a href="uliana-latyk-navsi100-part-5-compilation-cd-2006.html">
-NAVSI100, Part 5 (2006) – Uliana Latyk Compilation Appearance
-</a>
-</li>
 
-</ul>
+<img
+src="images/uliana-latyk-navsi100-part-5-compilation-cd-2006-front.jpg"
+alt="NAVSI100, Part 5 compilation CD – Uliana Latyk (2006)">
+
+</a>
+
+<p>
+NAVSI100, Part 5 (2006) – Uliana Latyk Compilation Appearance
+</p>
+
+</div>
+
+</div>
 
 </main>
 
